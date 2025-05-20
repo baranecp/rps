@@ -14,4 +14,13 @@
             }
         }
 
-        console.log(getComputerChoice())
+  // Create a function called getHumanChoice
+    // Inside the function, prompt the user to choose Rock, Paper, or Scissors
+
+        function getHumanChoice() {
+            const humanChoice = prompt("Your choice: ");
+            return humanChoice.toLocaleLowerCase();
+        }
+
+
+
